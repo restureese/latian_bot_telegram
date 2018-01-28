@@ -12,12 +12,6 @@ Telegram::Bot::Client.run(token) do |bot|
       bot.api.send_message(chat_id: message.chat.id, text: "Pie?")
     when '/gekngpo'
       bot.api.send_message(chat_id: message.chat.id, text: "Medang kopi")
-    when '/sabalong'
-      bot.api.send_message(chat_id: message.chat.id, text: "Bocah Koyo Asu..")
-    when '/malam'
-      bot.api.send_message(chat_id: message.chat.id, text: "Iyo aku reti")
-    when '/asu'
-      bot.api.send_message(chat_id: message.chat.id, text: "Koe kui sek koyo asu")
     end
   end
 end
